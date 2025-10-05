@@ -1,1 +1,94 @@
 Fundalental of Python Programming 
+
+Problem Solving 1
+
+#1.Program to display a person's name , age and address in three lines
+name =  "Harsha"
+age = 24
+address = "123 Main St."
+print("Name:",name)
+print("Age:",age)
+print("Address:",address)
+#Output:
+# Name: Harsha
+# Age: 24
+# Address: 123 Main St.
+
+#2.Swap values of two variables
+#Method 1
+a = 10
+b = 20
+print("Before swaping:",a)
+print("Before swaping:",b)
+temp = a
+a = b
+b = temp
+print("After swaping:",a)
+print("After swaping:",b)
+#Output:
+# Before swaping: 10
+# Before swaping: 20
+# After swaping: 20
+# After swaping: 10
+
+#Method 2
+a = 10
+b = 20
+print("Before swaping:",a)
+print("Before swaping:",b)
+a,b = b,a
+print("After swaping:",a)
+print("After swaping:",b)
+#Output:
+# Before swaping: 10
+# Before swaping: 20
+# After swaping: 20
+# After swaping: 10
+
+#3.Convert float number into integer number
+number1 = float(input("Enter a number: "))
+print(type(number1))
+number2 = int(number1)
+print(type(number2))
+print(number2)
+#Output:
+# Enter a number: 13.2
+# <class 'float'>
+# <class 'int'>
+# 13
+
+#4.Student ID-card
+school = input("Enter the school name: ")
+name = input("Enter your name: ")
+grade = input("Enter your grade: ")
+dateofbirth = input("Enter your date of birth: ")
+phone = input("Enter your phone number: ")
+email = input("Enter your email: ")
+print(school)
+print("Name of the Student:",name)
+print("Grade:",grade)
+print("Date of Birth:",dateofbirth)
+print("Phone Number:",phone)
+print("Email:",email)
+#Output:
+# Loyola Model High School
+# Name of the Student: Patnaik Sai Harsha Vardhan
+# Grade: 10th A
+# Date of Birth: 13th , July , 2001
+# Phone Number: +91-9390614019
+# Email: harshapatnaik789@gmail.com
+
+#5.Program to take an user input as an Integer and then covert it to float
+age = int(input("Enter your age: "))
+print(type(age))
+age = float(input("Enter your age: "))
+print(age)
+print(type(age))
+#Output:
+# Enter your age: 24
+# <class 'int'>
+# Enter your age: 24
+# 24.0
+# <class 'float'>
+
+
