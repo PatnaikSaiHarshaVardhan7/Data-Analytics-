@@ -1,4 +1,4 @@
-## Hi 👋😊 !  all my name is Harsha this my learning journey of Data Analytics .My Learning Approch : "Solving Problem Statements related to Data Analytics Path" 
+## Hi 👋😊 !  all my name is Harsha Patnaik , this my learning journey of Data Analytics .My Learning Approch : "Solving Problem Statements related to Data Analytics Path" 
 
 # Data-Analytics
 
@@ -74,11 +74,52 @@ Output: Hello World
 
 ## Data Types 
 
-Text-type : String(str)
+⮞ Text type : String(str)
 
-Numeric types : Integer(int)
+⮞ Numeric types : Integer(int) , floating poing(float) , Complex
 
-Sequence types 
+⮞ Sequence types : list , tuple and range 
+
+⮞ Mapping type : Dictionaries(dict)
+
+⮞ Set type : set , frozenset
+
+⮞ Boolean type : bool
+
+⮞ Binary types : bytes , bytearray , memoryview  
+
+## User - Input
+
+### Syntax : 
+    Ex : name = input("enter your name:")
+
+### Note : Evaluete → eval
+
+
+###
+     Ex : expl = eval(input("enter any equation here : ")) 
+
+## Type Casting 
+
+Conversion of one data type to another is called as type casting 
+
+They are of two types : Implicit typecasting  , Explicit typecasting 
+
+### Note : "type" is a data type it tells about the type of the data 
+
+    Ex: Input : name = "Harsha"
+                print(type(name))
+        Output : <class 'str'>
+        
+## Implicit typecasting : Automatically converting 
+
+## Explicit typecasting : 
+
+    Ex: Input: a = "123"
+               a = float(a)
+               print(a)
+        Output: 123.0
+
 
 
 
