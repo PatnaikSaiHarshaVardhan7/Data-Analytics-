@@ -91,4 +91,14 @@ print(type(age))
 # 24.0
 # <class 'float'>
 
+#Problem Solving 2
+
+#1. Check number is positive
+#2. Check weather a number is odd or even 
+#3. Area Calculator 
+#4. Check weather the passed letter is a vowel or not
+#5. Check if a number is a single digit number , 2-digits number and so on.... upto 5-digits 
+
+
+
 
