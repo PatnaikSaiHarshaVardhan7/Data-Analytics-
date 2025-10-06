@@ -91,7 +91,7 @@ print(type(age))
 # 24.0
 # <class 'float'>
 
-Problem Solving 2
+# Problem Solving 2
 
 #1. Check number is positive
 a = int(input("enter a number:"))
@@ -478,6 +478,10 @@ while i <= 100:
 # 98
 # 99
 # 100
+
+#Problem Solving 3
+
+
 
 
 
