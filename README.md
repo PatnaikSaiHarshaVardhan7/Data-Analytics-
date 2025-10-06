@@ -250,11 +250,35 @@ They are of two types : Implicit typecasting  , Explicit typecasting
     # 5 x 8 = 40
     # 5 x 9 = 45
 
+### While loop
+    while Condition :
+          print ("Statement")
+          increament / decreament
 
-
-
-
-
+### Q. Multiplication table using while loop
+    n = int(input("enter a number:"))
+    i = 0
+    m = int(input("enter a number upto:"))
+    print(n, "table")
+    while i in range(0,m):
+          print(n,"x",i,"=",n*i)
+          i+=1
+            
+    # Output:
+    # enter a number:5
+    # enter a number upto:11
+    # 5 table
+    # 5 x 0 = 0
+    # 5 x 1 = 5
+    # 5 x 2 = 10
+    # 5 x 3 = 15
+    # 5 x 4 = 20
+    # 5 x 5 = 25
+    # 5 x 6 = 30
+    # 5 x 7 = 35
+    # 5 x 8 = 40
+    # 5 x 9 = 45
+    # 5 x 10 = 50
 
 
 
