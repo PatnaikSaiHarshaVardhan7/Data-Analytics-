@@ -122,13 +122,13 @@ They are of two types : Implicit typecasting  , Explicit typecasting
 
 ### Problem Solving 1 (Go through it)
 
-# Operators and Operands 
+## Operators and Operands 
 
     Ex :  x + y = 0
           (x , y , 0) → Operands
           (+ , =) → Operators 
 
-# Operators in Python
+## Operators in Python
 
 1. Arithmetic Operators (+,-,*,/,//,**,%)
 2. Comparision Operators (<,>,<=,=>,==,!=)
@@ -211,6 +211,8 @@ They are of two types : Implicit typecasting  , Explicit typecasting
 6. Short hand if-else statement
 ### Syntax:
         print("Statement") if Condition print("Statement")
+
+## Problem Solving 2(Go through it)
 
 ## Loops
 
