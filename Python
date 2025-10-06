@@ -91,14 +91,95 @@ print(type(age))
 # 24.0
 # <class 'float'>
 
-#Problem Solving 2
+Problem Solving 2
 
 #1. Check number is positive
-#2. Check weather a number is odd or even 
-#3. Area Calculator 
+a = int(input("enter a number:"))
+if a >= 0:
+     print(a, "is positive")
+else:
+     print(a, "is negative")
+#Output:
+# enter a number: 2
+# 2 is positive
+
+#2. Check weather a number is odd or even
+a = int(input("enter a number:"))
+if a % 2 == 0:
+    print(a,"is even number")
+else:
+    print(a,"is odd number")
+#Output:
+# enter a number: 7
+# 7 is odd number
+
+#3. Area Calculator
+print("*****Area Calculator*****")
+print("""Press 1 to calculate area of a Square
+Press 2 to calculate area of a Rectangle
+Press 3 to calculate area of a Circle
+Press 4 to calculate area of a Triangle""")
+
+Choice = int(input("Enter a number between 1 and 4: "))
+if Choice == 1:
+     S = float(input("Enter Square Area: "))
+     area = S * S
+     print("The Area of the Square is: ", area)
+elif Choice == 2:
+      L = float(input("Enter Length: "))
+      B = float(input("Enter Breadth: "))
+      area = L * B
+      print("The Area of the Rectangle is: ", area)
+elif Choice == 3:
+      R = float(input("Enter Radius: "))
+      area = (22/7)*(R**2)
+      print("The Area of the Circle is: ", area)
+elif Choice == 4:
+      b = float(input("Enter Base: "))
+      h = float(input("Enter Height: "))
+      area = (1/2)*(b * h)
+      print("The Area of the Triangle is: ", area)
+else:
+      print("Invalid Choice")
+# Output:
+# *****Area Calculator*****
+# Press 1 to calculate area of a Square
+# Press 2 to calculate area of a Rectangle
+# Press 3 to calculate area of a Circle
+# Press 4 to calculate area of a Triangle
+# Enter a number between 1 and 4: 1
+# Enter Square Area: 6
+# The Area of the Square is:  36.0
+
 #4. Check weather the passed letter is a vowel or not
-#5. Check if a number is a single digit number , 2-digits number and so on.... upto 5-digits 
+letter = input("Enter a letter: ")
+print(letter in "aeiou")
 
+if letter in "aeiou" or "AEIOU":
+    print(letter, "is a Vowel")
+else:
+    print(letter, "is not a Vowel")
+# Output:
+# Enter a letter: a
+# True
+# a is a Vowel
 
+#5. Check if a number is a single digit number , 2-digits number and so on.... upto 5-digits
+number = int(input("Enter a number: "))
+if number in range(0,9):
+    print(number,"is a single digit number")
+elif number in range(10,99):
+    print(number,"is a double digit number")
+elif number in range(100,999):
+    print(number,"is a triple digit number")
+elif number in range(1000,9999):
+    print(number,"is a 4-digit number")
+elif number in range(10000,99999):
+    print(number,"is a 5-digit number")
+else:
+    print(number,"is not a number")
+# Output:
+# Enter a number: 8888
+# 8888 is a 4-digit number
 
 
