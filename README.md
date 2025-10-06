@@ -251,6 +251,7 @@ They are of two types : Implicit typecasting  , Explicit typecasting
     # 5 x 9 = 45
 
 ### While loop
+#### Syntax:
     while Condition :
           print ("Statement")
           increament / decreament
@@ -280,6 +281,42 @@ They are of two types : Implicit typecasting  , Explicit typecasting
     # 5 x 9 = 45
     # 5 x 10 = 50
 
+### while True 
+#### Syntax:
+       while True :
+             print("Statement")
+
+### Nested loop
+#### Syntax:
+       for loop :
+                for loop :
+                          print("Statement")
+       print("Statement")
+
+### Q. Print 
+1
+
+1 2
+
+1 2 3
+
+1 2 3 4
+
+1 2 3 4 5
+
+             for i in range(1,6):
+             for j in range(1,i+1):
+             print(j,end=" ")
+             print()
+    
+             # Output:
+             # 1 
+             # 1 2 
+             # 1 2 3 
+             # 1 2 3 4 
+             # 1 2 3 4 5 
+             
+     
 
 
 
