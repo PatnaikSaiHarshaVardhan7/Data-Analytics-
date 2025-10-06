@@ -320,6 +320,7 @@ They are of two types : Implicit typecasting  , Explicit typecasting
 Q. for range 1 to 100,
    commen multiples of 8 and 12,
    both using for and while individually 
+   ##### for
 
     for i in range(1,101):
     if i % 8 == 0 :
