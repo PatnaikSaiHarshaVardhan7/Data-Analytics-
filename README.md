@@ -211,7 +211,46 @@ They are of two types : Implicit typecasting  , Explicit typecasting
 6. Short hand if-else statement
 ### Syntax:
         print("Statement") if Condition print("Statement")
+
+## Loops
+
+1. for loop
+2. while loop
+3. while True
+4. Nested loop
+
+### for loop
+   #### Syntax:
+    for i(variable) in range(n,m)
+               print("Statement")
+    (or)
+    for i in range(n,m,l)  #Note:l=Gap
+           print("Statement")
+
+### Q. Multiplication table using for loop
+    n = int(input("enter a number:"))
+    i = 0
+    m = int(input("enter a number upto:"))
+    print(n, "table")
+    for i in range(0,m):
+    print(n,"x",i,"=",n*i)
     
+    # Output:
+    # enter a number:5
+    # enter a number upto:10
+    # 5 table
+    # 5 x 0 = 0
+    # 5 x 1 = 5
+    # 5 x 2 = 10
+    # 5 x 3 = 15
+    # 5 x 4 = 20
+    # 5 x 5 = 25
+    # 5 x 6 = 30
+    # 5 x 7 = 35
+    # 5 x 8 = 40
+    # 5 x 9 = 45
+
+
 
 
 
