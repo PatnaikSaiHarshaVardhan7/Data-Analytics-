@@ -662,30 +662,32 @@ while True:
         continue
     else:
         break
+print("*"* 10,"Happy Shopping","*"* 10)
 # Output:
-# Enter Customer's name: Harsha 
+# Enter Customer's name: Harsha
 # Enter the amount and quantity :
-# Enter the amount : 2
+# Enter the amount : 500
+# Enter the quantity : 2
+# Do you wish to continue? (Y/N) : Y
+# Enter the amount and quantity :
+# Enter the amount : 1000
 # Enter the quantity : 3
 # Do you wish to continue? (Y/N) : N
-# Name:  Harsha 
-# Total:  6.0
+# Name:  Harsha
+# Total:  4000.0
 # Quantity:  3.0
-# Amount:  2.0
+# Amount:  1000.0
 # Press Enter to continue with next customer...Y
 # Enter Customer's name: Vardhan
 # Enter the amount and quantity :
-# Enter the amount : 3
-# Enter the quantity : 5
+# Enter the amount : 1500
+# Enter the quantity : 4
 # Do you wish to continue? (Y/N) : N
 # Name:  Vardhan
-# Total:  15.0
-# Quantity:  5.0
-# Amount:  3.0
+# Total:  6000.0
+# Quantity:  4.0
+# Amount:  1500.0
 # Press Enter to continue with next customer...N
+# ********** Happy Shopping **********
 
 
-
-
-             
-     
