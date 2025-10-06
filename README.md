@@ -221,10 +221,10 @@ They are of two types : Implicit typecasting  , Explicit typecasting
 
 ### for loop
    #### Syntax:
-    for i(variable) in range(n,m)
+    for i(variable) in range(n,m):
                print("Statement")
     (or)
-    for i in range(n,m,l)  #Note:l=Gap
+    for i in range(n,m,l):  #Note:l=Gap
            print("Statement")
 
 ### Q. Multiplication table using for loop
@@ -332,3 +332,27 @@ Q. for range 1 to 100,
 
 #### Output:
 ![WhatsApp Image 2025-10-06 at 12 48 19_1f14d6c7](https://github.com/user-attachments/assets/6fe7ba5e-73f6-4488-875d-ca8e3be4910e)
+
+#### while 
+    i = 1
+    while i <= 100:
+            if i % 8 == 0:
+                 print(i, "is a multiple of 8")
+            elif i % 12 == 0:
+                 print(i, "is a multiple of 12")
+            else:
+                 print(i)
+            i += 1
+
+#### Output : 
+![WhatsApp Image 2025-10-06 at 12 48 19_1f14d6c7](https://github.com/user-attachments/assets/6fe7ba5e-73f6-4488-875d-ca8e3be4910e)
+
+### Break and Continue Statement 
+   #### Syntax:
+    for i(variable) in range(n,m):
+            if Condition :
+                  continue / break
+            else:
+               print("Statement")
+ 
+
