@@ -293,7 +293,7 @@ They are of two types : Implicit typecasting  , Explicit typecasting
        for loop :
                 for loop :
                           print("Statement")
-       print("Statement")
+                print("Statement")
 
 ### Q. Print 
 1
@@ -307,9 +307,9 @@ They are of two types : Implicit typecasting  , Explicit typecasting
 1 2 3 4 5
 
              for i in range(1,6):
-             for j in range(1,i+1):
-             print(j,end=" ")
-             print()
+                    for j in range(1,i+1):
+                       print(j,end=" ")
+                      print()
     
              # Output:
              # 1 
