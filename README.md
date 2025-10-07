@@ -395,3 +395,109 @@ Ans :
     # Converting to Upper case : WHY FIT IN, WHEN YOU ARE BORN TO STAND OUT!
     # Converting to Title : Why Fit In, When You Are Born To Stand Out!
     # Index number of 'fit in': 4
+
+#### Print Numerical Patterns 
+#### print
+####      1
+####      1 2
+####      1 2 3
+####      1 2 3 4
+####      1 2 3 4 5
+
+    for i in range(1, 6): #rows 
+         for j in range(1, i + 1): #Coloumns 
+             print(j, end=" ")
+          print()
+
+    # Output:
+    # 1
+    # 1 2
+    # 1 2 3
+    # 1 2 3 4
+    # 1 2 3 4 5
+
+#### print
+####      1
+####      2 2
+####      3 3 3
+####      4 4 4 4
+####      5 5 5 5 5
+
+    for i in range(1, 6): #rows
+          for j in range(1, i + 1): #Columns
+            print(i, end=" ")
+           print()
+
+    # Output:
+    # 1
+    # 2 2
+    # 3 3 3
+    # 4 4 4 4
+    # 5 5 5 5 5 
+
+#### print
+####      1 1 1 1 1
+####      2 2 2 2
+####      3 3 3
+####      4 4
+####      5
+
+    for i in range(1,6): #rows
+          for j in range( 6, i,-1): #Columns
+            print(i, end=" ")
+           print()
+
+    # Output:
+    # 1 1 1 1 1
+    # 2 2 2 2
+    # 3 3 3
+    # 4 4
+    # 5
+
+#### print
+#### 6 5 4 3 2
+#### 6 5 4 3
+#### 6 5 4
+#### 6 5
+#### 6
+
+    for i in range(1,6): #rows
+           for j in range( 6, i,-1): #Columns
+             print(j, end=" ")
+           print()
+
+    # Output:
+    # 6 5 4 3 2
+    # 6 5 4 3
+    # 6 5 4
+    # 6 5
+    # 6
+
+### "*" Patterns 
+
+###### 1.
+     for i in range(1, 6): #rows
+          for j in range(1, i + 1): #Coloumns
+             print("*", end=" ")
+          print()
+     
+     # Output:
+     # * 
+     # * * 
+     # * * * 
+     # * * * * 
+     # * * * * * 
+###### 2..
+    for i in range(1, 6):  # rows
+          for j in range(6, i, -1):  # Coloumns
+             print("*", end=" ")
+          print()
+
+    # Output:
+    # * * * * * 
+    # * * * * 
+    # * * * 
+    # * * 
+    # * 
+
+
