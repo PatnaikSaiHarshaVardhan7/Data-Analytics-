@@ -690,4 +690,42 @@ print("*"* 10,"Happy Shopping","*"* 10)
 # Press Enter to continue with next customer...N
 # ********** Happy Shopping **********
 
+# Problem solving 4
+
+Q. 
+
+A = "Why fit in, When you bore Bom to Stand Out!
+
+1. Write a program to find the length of the following string
+
+2. Write a program to check how many time alphabet O is occuring
+
+3. Write a program to convert the whole-string into Lower and upper Cases,
+
+4. Write a program to convert the following string into a title
+
+5. White a program to find the index number of 'fit in'
+
+Ans : 
+     
+A = "Why fit in, When you are Born to Stand Out!"
+
+print("The length of A is",len(A)) #length of the given string
+
+print("Number of time 'o' is occuring is",A.count('o')) #count number of 'o'
+
+print("Converting to Lower case :", A.lower()) # Converting into lowercase
+
+print("Converting to Upper case :", A.upper()) # Converting into Uppercase
+
+print("Converting to Title :", A.title()) # Converting into Title/Capital
+
+print("Index number of 'fit in':", A.find('fit in')) #Index number of 'fit in'
+
+# Output:
+# Number of time 'o' is occuring is 3
+# Converting to Lower case : why fit in, when you are born to stand out!
+# Converting to Upper case : WHY FIT IN, WHEN YOU ARE BORN TO STAND OUT!
+# Converting to Title : Why Fit In, When You Are Born To Stand Out!
+# Index number of 'fit in': 4
 
