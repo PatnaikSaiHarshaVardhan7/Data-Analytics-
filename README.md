@@ -361,7 +361,7 @@ Q. for range 1 to 100,
 
 Q. 
 
-A = "Why fit in, When you bore Bom to Stand Out!
+A = "Why fit in, When you bore Born to Stand Out!
 
 1. Write a program to find the length of the following string
 
@@ -371,7 +371,7 @@ A = "Why fit in, When you bore Bom to Stand Out!
 
 4. Write a program to convert the following string into a title
 
-5. White a program to find the index number of 'fit in'
+5. Write a program to find the index number of 'fit in'
 
 Ans : 
      
